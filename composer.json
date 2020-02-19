@@ -1,0 +1,17 @@
+{
+    "name": "chatbox-inc/php-slack",
+    "authors": [
+        {
+            "name": "mikakane",
+            "email": "t.goto@chatbox-inc.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chatbox\\PhpSlack\\": "./src/"
+        }
+    }
+}
