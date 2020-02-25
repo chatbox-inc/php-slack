@@ -36,7 +36,6 @@ class Client
             ]
         ]);
         return new Result($response);
-
     }
 
     public function sendPost($url,$body):Result{
@@ -46,7 +45,6 @@ class Client
 
             ]
         ]);
-
-
+        return new Result($response);
     }
 }
