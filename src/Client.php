@@ -42,7 +42,7 @@ class Client
         $response = $this->client()->get($url,[
             "params" => $body,
             "headers" => [
-
+                "Authorization" => "Bearer {$this->token}"
             ]
         ]);
         return new Result($response);
