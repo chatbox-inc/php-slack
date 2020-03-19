@@ -40,7 +40,7 @@ class Client
 
     public function sendPost($url,$body):Result{
         $response = $this->client()->post($url,[
-            "params" => $body,
+            "json" => $body,
             "headers" => [
                 "Authorization" => "Bearer {$this->token}"
             ]
